@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=9" >
 
-<title>Level of education and age when the first child born</title>
+<title>Relationship between the level of education and the age when the first child is born</title>
 
 <style type="text/css">
 body, td {
@@ -185,7 +185,7 @@ hljs.initHighlightingOnLoad();
 
 <!-- Replace below with the title of your project -->
 
-<h3>Level of education and age when the first child born</h3>
+<h3>Relationship between the level of education and the age when the first child is born</h3>
 
 <!-- Enter the code required to load your data in the space below. The data will be loaded but the line of code won't show up in your write up (echo=FALSE) in order to save space-->
 
@@ -193,31 +193,36 @@ hljs.initHighlightingOnLoad();
 
 <h3>Introduction:</h3>
 
-<p>In this research I would like to investigate a question:
-is there a relationship between the level of education of the person and the age when he decide he is ready to have a first child.</p>
+<p>In this research I would like to investigate the following question:
+is there a relationship between the level of education of a person and the age when (s)he decides to have the first child.</p>
 
-<p>It&#39;s often been told that modern people tend to have families and children later. But from limited sample of my circle of people I couldn&#39;t jump to such a conclusion. Moreover it look&#39;s for me that what people do and try to achieve in lives are very important factor in their decision to start a family. Therefore I think that researching this particular question on such a great data would be interesting and valuable.</p>
+<p>It is often told that modern people tend to have families and children later. Relying on a limited sample of people I know, I can not jump to such a conclusion. Therefore, I think that researching this particular question on a big dataset would be both interesting and valuable.</p>
 
 <h3>Data:</h3>
 
-<p>In this research I&#39;m using the modified dataset (all missing values have been recoded as &ldquo;NA&rdquo;) from General Social Survey (GSS). GSS has been monitoring societal change and studying the growing complexity of American society since 1972. The GSS aims to gather data on contemporary American society in order to monitor and explain trends and constants in attitudes, behaviors, and attributes; to examine the structure and functioning of society in general as well as the role played by relevant subgroups; to compare the United States to other societies in order to place American society in comparative perspective and develop cross-national models of human society; and to make high-quality data easily accessible to scholars, students, policy makers, and others, with minimal cost and waiting.</p>
+<p>In this research I am using the modified dataset (all missing values have been recoded as &ldquo;NA&rdquo;) from General Social Survey (GSS). GSS has been monitoring societal change and studying the growing complexity of American society since 1972. The GSS aims to gather data on contemporary American society in order to monitor and explain trends and constants in attitudes, behaviors, and attributes; to examine the structure and functioning of society in general as well as the role played by relevant subgroups; to compare the United States to other societies in order to place American society in comparative perspective and develop cross-national models of human society; and to make high-quality data easily accessible to scholars, students, policy makers, and others, with minimal cost and waiting.</p>
 
-<p>Units of observation (cases) in this study is a set of answers of respondent (set from each inquired has a numerical identification number) to interview&#39;s questions and a year when this respondent was questioned ( numerical 1972-2012).</p>
+<p>Units of observation (cases) in this study are a set of answers by respondents to interview&#39;s questions (the set of each respondent&#39;s answers has a numerical identification) and a year when this respondent was surveyed (numerical 1972-2012).</p>
 
-<p>I&#39;m going to use 2 variables:
-degree: highest degree achieved (categorical variable with set of values {Lt High School, High School, Junior College, Bachelor, Graduate})
-agekdbrn: age when 1st child born ( numerical with values from the interval [9,65])</p>
+<p>I&#39;m going to use 2 variables:</p>
 
-<p>My study is observational since it is not an experement.
-In an observational study, researchers collect data in a way that does not directly interfere with how the data arise, which is our case (merely observe).  In an experiment, on the other hand, Researchers randomly assign subjects to various treatments, and can therefore establish causal connections between explanatory and response variables (not an our case).</p>
+<p>degree: highest degree achieved (categorical variable with set of values {Lt High School, High School, Junior College, Bachelor, Graduate})</p>
 
-<p>Population of interest is residents of the United States. There are some possible sources of bias:
-Convenience sample: individuals who are easily accessible are more likely to be included in the survey
-Non-response:  if only a non-rendom fraction of the randomly sampled people respond to a survey such that the sample is no longer representative of the population
-Voluntary response: occures when the sample consist of people who volunteer to respond because they have strong opinions on the issue.
-As long as all this 3 possible sourses are avoided data looks reliable and it could be generalized to US population. </p>
+<p>agekdbrn: age when the 1st child is born (numerical with values from the interval [9,65])</p>
 
-<p>Based on an observational study (which we have), we can only establish an association, in other words correlation, between the explanatory and response variables (NOT a causal connections, since we not have an experement). Because there may be other variables that we didn&#39;t control for in this study that contribute to the observed difference.</p>
+<p>My study is observational since it is not an experemint.
+In an observational study, researchers collect data in a way that does not directly interfere with how the data arise, which is our case (merely observe). In an experiment, on the other hand, researchers randomly assign subjects to various treatments, and can therefore establish causal connections between explanatory and response variables (not our case).</p>
+
+<p>Population of interest is residents of the United States. There are some possible sources of bias:</p>
+
+<p>Convenience sample: individuals who are easily accessible are more likely to be included in the survey</p>
+
+<p>Non-response: if only a non-random fraction of the randomly sampled people respond to a survey such that the sample is no longer representative of the population</p>
+
+<p>Voluntary response: occurs when the sample consist of people who volunteer to respond because they have strong opinions on the issue.
+As long as all theses 3 possible sources of bias are avoided the data looks reliable and it could be generalized to the US population.</p>
+
+<p>Based on an observational study (which we have), we can only establish an association, in other words correlation, between the explanatory and response variables (NOT a causal connection, since we do not have an experiment). There may be other variables that we do not control in this study that contribute to the observed difference.</p>
 
 <h3>Exploratory data analysis:</h3>
 
@@ -227,7 +232,7 @@ As long as all this 3 possible sourses are avoided data looks reliable and it co
 <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtAAAAFoCAMAAABJ+DwrAAAAkFBMVEX9/v0AAAAAADkAAGUAOTkAOWUAOY8AZo8AZrU5AAA5ADk5AGU5OWU5OY85ZmU5ZrU5j485j9plAABlADllAGVlOQBlOTllZgBltdpltf2POQCPOTmPOWWPZgCPZo+Pj9qP29qP2/21ZgC124+1/rW1/v3ajzna24/a/rXa/tra/v39tWX924/9/rX9/tr9/v1DQhkcAAAAMHRSTlP//////////////////////////////////////////////////////////////wBipdB4AAAACXBIWXMAAAsSAAALEgHS3X78AAAO5klEQVR4nO2dD3vauhWHL+naJe2yLUm7Leld74Ut3C4Q/P2/3Sxb/AsOWJZlST+979OntIScY5sXcXww0i8VgBC/xN4AgDFBaJACoUEKhAYpEBqkQGiQAqFBCoQGKRAapEBokAKhQQqEBikQGqRAaJACoUEKhAYpEBqkQGiQAqFBCoQGKRAapEBokAKhQQqEBikQGqRAaJACoUEKhAYpEBqkQGiQAqFBCoQGKRAapEBokAKhQQqEBikQGqRAaJACoUEKhAYpEBqkQGiQAqFBCoQGKRAapEBokAKhQQqEBikQGqRAaJACoUEKhAYpEBqkQGiQAqFBCoQGKRAapEBokMJH6BnA9AQU2uN3AYaB0CAFQoMUCA1SIDRIkZHQF89gATISejZ+SNADoUEKhAYp8hGaGhp6kJHQAJdBaJACoUEKhAYpEBqkQGiQAqFBCoQGKRAapEBokMJb6PVN89XED8+uoQEC4Cv05umxuV19enEMDRAAX6Ffvz4f3fYPDRAARmiQwruGfr2nhoZ0oMsBUgQQuuekTAABGKFt97h5ms1OS2hGaIjAGCeFi/q8cH3LSSEkwAhtu833OW07SATvkqMenld3VbW6dg0NEAD/k8JFcwJ46jNCQwRo24EUCA1SIDRIgdAgBUKDFAgNUiA0SIHQEI8AV7AhNEQjxJTfCA3RQGiQAqEhHDG+kUENDaFQWcIGoaEBoX1Du8fjW4oBQWjf0EPCKRzxVBEZLxAapEBokCIfoVXeE3tQzp6OT0ZCFwPvRR4gdHogtAcInR4I7QFCnydKOUsNPRyEPguDZW4g9FkQOjdYNOgsCJ0bGS1JQTkr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" alt="plot of chunk unnamed-chunk-2"/> </p>
 
 <p><br></br>
-In this plot we can see that it is looks like we have a relationship. People with higher education level prefer to have kids later.</p>
+In this plot we can see the tendancy: people with higher educational level have kids later.</p>
 
 <pre><code class="r">by(gss$agekdbrn, gss$degree, summary)
 </code></pre>
@@ -253,14 +258,14 @@ In this plot we can see that it is looks like we have a relationship. People wit
 ##    15.0    24.0    28.0    28.2    32.0    56.0    2430
 </code></pre>
 
-<p>Comparing age when first child born vs education level we can see increase (or rare invariance) of Median, Mean and both quartiles while education level growth. It support my conclusion based on the boxplot that there is a tendency of more educated people prefer have kids later.</p>
+<p>Comparing the age when the first child is born with educational level we can see increase (or rare invariance) of Median, Mean and both quartiles while education level increases. Boxplot supports my assumption that there is a tendency that more educated people prefer to have kids later.</p>
 
 <h3>Inference:</h3>
 
-<p>So I want to perform a test to prove my hypothesis that there are difference between education level of a person and time when he\she decided to have a baby. I divide our sample into 5 groups according to theier education level. So my data is presented as one numerical and one categorical variable (with 5 levels). That means that I only can perform a hypothesis test. ANOVA and pairwise tests are suitable for a such situation.</p>
+<p>In order to perform a test to prove my hypothesis that there is correlation between educational level of a person and the time when (s)he decides to have a baby, I divide our sample into 5 groups according to their educational levels. So my data is presented as one numerical and one categorical variable (with 5 levels). It means that I only can perform a hypothesis test. ANOVA and pairwise tests are suitable for this situation.</p>
 
-<p>At first I have to make a null hypothesis which always state that there are nothing going on and that on average age when first child born are the same for all education levels: H0: Mu1=..=Mu5.
-Alternative hypothesis: Ha: at least one pair of means(as a measure of average value) are different from each other.</p>
+<p>At first, I have to make a null hypothesis which always states that there is nothing going on and that on average ages when the first child is born are the same for all educational levels: H0: Mu1=..=Mu5.
+Alternative hypothesis: Ha: at least one pair of means (as a measure of average value) are different from each other.</p>
 
 <p>To perform such test we have to check conditions.</p>
 
@@ -304,7 +309,7 @@ dim(a)
 <pre><code>## [1] 1440    2
 </code></pre>
 
-<p>Since we have a random sample of people and numbers of people in each groups (as shown above) are less than 10% of their respective population we can conclude that this condition is met.</p>
+<p>Since we have a random sample of people, and as numbers of people in each group are less than 10% of their respective population (as shown above) we can conclude that this condition is met.</p>
 
 <p>b) between group independence:
 This condition is also satisfied since every person could be included in only one group, so there is no pairing between the groups.
@@ -323,7 +328,7 @@ The distribution of the response variable within each group should be approximat
 
 <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ4AAADYCAMAAAAtWqo4AAAAk1BMVEX9/v0AAAAAADkAAGUAOTkAOWUAOY8AZo8AZrU5AAA5ADk5AGU5OQA5OWU5OY85ZrU5j485j9plAABlADllAGVlOQBlOTllOY9lZjllZmVltbVltdpltf2POQCPOTmPOWWPZgCPZo+P29qP2/21ZgC1Zjm124+1/v3ajzna/rXa/tra/v39tWX924/9/rX9/tr9/v3+1CkuAAAAMXRSTlP///////////////////////////////////////////////////////////////8AH5pOIQAAAAlwSFlzAAALEgAACxIB0t1+/AAABZxJREFUeJztnYt22jgQhmvSUpPd0tpstnsBWmLv4hTf3v/pqhnZFLAEkkcSTjv/OUlAg+OPkUbWSL68aSetN/cGuC7Go4jxKGI8ihiPIsajiPEoYjyKGI8ixqOI8ShiPIoYjyIiXrOJomiWKW11Oj8oivO1xf+n4VWLCKXcoxovV39YIxKe8F2Mv+eHZjP7S7ix7JwJXv0nheKHveSUFvS22KbQfSeXeNUC/VP9tpe1PH9JwZdAFfUvOrxaWr5JvBzNiWe8EhwhJR0JqtOHfbUQVMUpXm/BysWvhSb/eFBrD3tRuZlEgHdoqM8qt7MgXilbrCaknOGhF07xZKio8HpLSDwMiharSeIVoj1BxZ5UrqCBF73lR+UayU3HErcST7oFYLvQ6IJgfugtUBAfSz3jtbgjaOJd2xNvk0L4B/g+QZODFgc9zNEivlFHbeLBn/ug5luMRxHjUcR4FDEeRYxHEeNRxHgU3cbrRsQGaZUH3cRrNjJdLk3TA6e6iVf/sT/7G1av3XutnH6Yatu7r149Hncseo3pWKJeHrk6Ubx3ieeBmtKxDPDUxRRRIpfxjEID6lcRuBPBw6CtPg5ME8GrlgfliGUSeOns+Qt4b3m7Y1EXU2QQGrhkUXLHopDEq9P4xudUCui90mgVRIlz+d5T5cJkv81iZkg8MaoT3rPLdwK2vTGjuYlGrm685w+vhJU529gIV7krIINVbRsdOc696R5PDolt04no4oW/ysUhsW0yFg5vlBjvGLkjUu1geHVqdTRrLzi8442avAtXubnBGTkDBazcSbe9cWK8Dg/O53lZjR0SXOA5nAnqj7mJSBRNj7mDAZXSew7xZK5t270Ew5PeK5yOWBzidScvWg7ow+GNEuP5O2o4916hPPDq1zUC4yk7FpOZ+TB4qkmyawumodueakw6He+pZbCuwR1LZN+1hPNeEfe/BppAxyLDcrIdixixtBrvmSyYhhmxKOt2Ct67Ju5Y9PKRCl1YKbqdCsk5+/sec/WpEIQGBPY98a6kQhIrj++JdyUV6jqW4u1wXnwSkVunOIguhj1L4IOarcK1va3tauQZAGdqI3QDz8VEFQ1PuVrl0omAZz0zdaQy4HKDpzgP5DYm470CvFF5WjC8sWI8xqOI8ShiPIr845EGVpQrDqy85wnv6hSQDd4oJ9KuOIioIuNN/HqNn+BSpjtWrhGe8bvrxqEYz9w4FOOZG4diPHPjUK/+Gsm7ivEoYjyKGI8ixqOIiAdZ5hoH/KpUBPMUta3ZyGVY9YaO8OAqmeoxAwzVeRLyXnJKW76G5Eq3oSO8MsY94eT0cMWy+vC0btW2Li3VbOgKD3exymDevB4s9TfbZ+Ecta1afoXKVRtd4sFKOeTAw70UCdSd2lYtEFxtdIiHq71KJ4jC5or3Dnq3u8MDL2iaUIGJbKJpe5+Ry3Pbk3RYwaoA7E+TUEcuule9oSM86aH1iH5PlMK0iN9+z7sYjyLGo4jxKGI8ihiPIsajiPEoYjyKGI+iXwGvjLS36flxTi/kRVYPTgG5wKsen3cvmhM874on08Fq+W2HTyk5zqa9+zPrbAKv2eDDSd49Cby/4RPVh6eH/5dfTW6MRMPLMYuu038BD2fTRMovCstZ1tkEHtySAcoETT4/iE/gBMsiMTk9gYQHQDgVlvcPaunuNyegOluz/T2Rsxx95eZr+A79j1c8OAsCH4Sze4GbfuRwRgRM6wCetDWbT58PEkSw/ZcFxZPxUMbN7pAncFsSscfee9ImXhXJqffEn1B42KREu1+JyF1luMfH7KTtwfSsCI1tdmx7MTAFwxM12D9xZo0TQhCeovD9NutswCYwmk0fubOsDYbXq9mdx6DtLaO0cn9Qg+t6rG9Gp9OvcMz1J8ajiPEoYjyKGI8ixqOI8ShiPIq+Az8o9thmz9cBAAAAAElFTkSuQmCC" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display:block;" /></p>
 
-<p>From the graphics above we can see that it&#39;s not the case and our distribution are skewed. Hence we have to take logarithm to &ldquo;normalize data.&rdquo;</p>
+<p>From the graphs above we can see that it is not the case and our distribution is skewed. Hence, we have to take logarithm to &ldquo;normalize data.&rdquo;</p>
 
 <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ4AAADYCAMAAAAtWqo4AAAAh1BMVEX9/v0AAAAAADkAAGUAOTkAOWUAOY8AZrU5AAA5ADk5AGU5OWU5OY85ZrU5j9plAABlADllAGVlOQBlOY9ltbVltf2POQCPOTmPOWWPjzmPj2WPtY+P29qP2/21ZgC1tWW124+1/rW1/tq1/v3ajzna/rXa/v39tWX924/929r9/rX9/tr9/v3FvXGJAAAALXRSTlP//////////////////////////////////////////////////////////wCl7wv9AAAACXBIWXMAAAsSAAALEgHS3X78AAAG9ElEQVR4nO2di5bbJhCGw266drepnU1qb29Wm1qxVFvv/3xlAN0sQMMMuriH/+zGiiTQZ2AGGCTth2rV+rA0gF8Jj6OEx1HC4yjhcZTwOEp4HCU8jhIeRwmPo4THUcLjKOFxFIBXbl8ueis7qI/r/vlcVbfj81lvGcGOTrLrXog64fBo1TtzcIiCl4l7vN55/R1AJ8RmNrzbsb7cXenJA8/f9i8XuePvraivBKnqw0J9NEdzmdGuajcmxVP7P24BT3QKrNzqstZ7zWnqaHa/Eb1yVb5C45VbmXkuFN6uPVnhyCPqsEzZHC23TyeZxdOp2ZgUr4CCuKrKVZdrzCFTpxS6HqvmqDpffp9DszGZadzhyd0dPF3Bhant5ujMeJ3K7eLlunUdzOFdczR+5aqq3EFt+U2ji6dT1SYBn/XR6KZh8OSGuvadY5FNsXYs3cqFZLJ4FIX87BzFO5b85SLPOeBZHSq6HUQEabzr55P8KV9d/hwjY8e7OFxGBu/tLMuPhydLrtd7RVFdubJZFBEqN7b+PwOqJQR4deckBna9uB6g9FasxnLXXLnSJxebKo/stCKoccv6Z2GagTTe7f0kf5i9xhQybU+SFbH7yxh6DMtdq4xp7FftWLTydbe91ToWrWKtlWvaXhqOBuoB8KjDURFD43hSGfiU0BHLSNaIDJB42qWEOhYunhjPw4xYjqr0Amf4s+F1Qp6B2XOExyNnzxLaNGi5M9Ii81CO5e0bacQyE95EWY+lFhO1PaRLHclE/+LwSOFHDp76dlg8WviRgafgBBqPFH6k4zV02MqlhB/JeJ22u0LL7VrWKvGqxuzRfe7L98+nwMuEk+l0rVPCdWpyxFJ+uhQzjVhaPIG2XIk303iv1/ACSm+m8Z72KlXweC90vYmG1/cpa7PcxqnUrc+rHt6/luKDBnl3rwcH744OhVduzT0SFtOog7rlzzHwBhNIBB5MhPKNY61TG7V1GsfAw+ahR8uq/uw97nX/9OevUHqfBvDheMOBIhbP3WVIq95Yo1fBeJZhLBaPENsLxbMNsteHF5IHOgTU4SfONayJ1uOWrV9pNXj2EmfjSZ+9y6wVH4TnaA9cvNvxUGVwBxnP77maKxcPTKLYsXsNlzFxLRdKD8QqPbeps4O31z3w5Zy253FEKwje+vzkCoK3Pi++fPDW28cs75a9HeDSeCP988JRgrHRw8JRgih4k0UJRodei0YJxgeGS0YJEMPWBS0XM6heDg815seZxh46Naxp4K6LOgtrub/JhhfTcpF0eMfyGnyDnMddYOnwA6rr/pdYeHi6kPFeFmVFUogAutktNwgOGcSItZ4rwooOh0fVcFYYCrccHjWPvlh3AXHZcHhVjLuAaHSzTSQpbPd5DDU6kUQtHBCLDovnmUhiFg7odDFCQKMLB1Q2LJ6n1Y0tHBB8XTDe7d0zh/QuHDDpsMNRqt/jwU3eazDpouHZFw4Ear7DxiM9jCOqZkGbSoe+SYnwME6LR6ZDOxbnwzjlVj2/6vB7or4xYEo8z8M4EPqGPs/tlhlw2LbnfhjHTEM2TjwWXZRlF6n847BoBSL/MbEdi44g2FYOWCbbycMj5miZSzftaJlNN+lomd5ZtHn4D3OXXWZoexVj2WUePHLWa8abq+3pdwqs9mEcvWZLlOBteDU6FRrX9HjaLRM1Q+lxnjCdofQ4Snic9xLM0PbSewlISu8l4OgBns+ljpZnUG8qFPcdUjEUYUgwpR6h7V33G3Nb/9qk8ORwCmIVtF6jcHWGskm7GrMzjQ0PWh64ZFILhITW7+X5ws40TjyY45J7DWvC+kuHpLHiVdlBzcMz6pDAWhKwEOJ5jgFferqVgH2QpF6OOBTcz+bEc6Sx41HVvGXRRjFSep5DHcXxe5llHjrS9qxpBmLjOetQP4EUlmYgfunl5s2TA3n8njPNvR6hU1uvEh5HCY+jhMdRwuMo4XGU8DhKeBwlPI4SHkcUvHILc8CxKIQ5DrFNeuiLhgfXw+GppdjQmxRakfBe/9roy8OfNZCT7Z++PP/z/rsQOx3dh79qcDB46l+Y08pT1R+CqBOc9eZILI2Gd8705bMdTKmhsm9HiGBuYC/AyA+NdzvqkoNwmjy1TQBp5SxdRcfcwR0i3vXrxTy9Y15OBjfHwq+Z/Oune9TZhZpym6puE6gSfTuPBAuIeFW+MwVkVpN6eOo9AZ22Wf540vcVdxKo5QDg3voCBlS82/sfrtIDa2gqt1AVlx2GpdeGYj2PjlLxzF+60U2pjwf/hfJqLVfuhLYHbbZJYNIC2hR46o45Y4h3lZsL8cOXQ8fvqZs7u5arzFntqOwvjODgzaiEx1HC4yjhcZTwOEp4HCU8jhIeRwmPo5Xj/QdjgJmAL5fGNgAAAABJRU5ErkJggg==" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" style="float:left" /></p>
 
@@ -338,7 +343,7 @@ The distribution of the response variable within each group should be approximat
 <p>Now our data set is sutible and condition of &ldquo;approximate normality&rdquo; is met.</p>
 
 <p>3.The last condition is the condition of constant variance, which says that variability should be consistent across groups.
-We can check this condition using side-by-side box plots, where it&#39;s going to be pretty easy visually to compare the variability across the groups, as well as by looking at the standard deviations for each group (log):
+We can check this condition using side-by-side box plots, where it&#39;s going to be pretty easy to visually compare the variability across the groups, as well as by looking at the standard deviations for each group (log):
 0.218 for &ldquo;Lt High School&rdquo;;</p>
 
 <p>0.1994 for &ldquo;High School&rdquo;; </p>
@@ -349,9 +354,9 @@ We can check this condition using side-by-side box plots, where it&#39;s going t
 
 <p>0.2007 for &ldquo;Graduate&rdquo;;</p>
 
-<p>From that we can see that we have roughly equal variability across the groups and that our third condition is satisfied. But I have to mension that my previous hypothesis changed:
+<p>From this we can see that we have roughly equal variability across the groups and that our third condition is satisfied. But I have to mention that my previous hypothesis changed:
 H0: ln(Mu1)=..=ln(Mu5).
-Alternative hypothesis: Ha: at least one pair of means(as a measure of average value) are different from each other.</p>
+Alternative hypothesis: Ha: at least one pair of means (as a measure of average value) are different from each other.</p>
 
 <pre><code class="r">plot(log(gss$agekdbrn) ~ gss$degree)
 </code></pre>
@@ -399,15 +404,15 @@ inference(y = log(data$agekdbrn), x = data$degree, est = &quot;mean&quot;, type 
 ## Graduate                    0           0              0        0
 </code></pre>
 
-<p>Performing this test we get p-value &lt; 2e-16, which coresponds to probability of at least as large differences between the groups variabilities if, in fact, the means of all groups are equal. Since p-value &lt; significance level (0.05) we can reject Ho and said that at least one log(mean) is different.
-Pairwise tests shows that all p-values for different paires are insignificant(-&gt;0) and less then modified significance level (0.05/10=0.005). Which states that neither pair of log(mean) are equal.
+<p>Performing this test we get p-value &lt; 2e-16, which corresponds to the probability that the differences between the groups variabilities are greater or equal to what we observe if, in fact, the means of all groups are equal. Since p-value &lt; significance level (0.05) we can reject Ho and say that at least one log(mean) is different.
+Pairwise tests show that all p-values for different pairs are insignificant(-&gt;0) and are less than modified significance level (0.05/10=0.005), which states that neither pair of log(mean) are equal.
 </br></p>
 
 <h3>Conclusion:</h3>
 
-<p>Despite the fact that we was working with logarithm, we can generalize our conclusions to means itself. So ANOVA test states that my initial guess was right and that difference in anerage age when people get their first child correlate with their level of education. Furthermore this association is strong between every education level groups.
-Unfortunately I doesn&#39;t see the way to perform an experement in this field to find out is there a cousational relationship. But still I get an interesting result which could be use to perform a better social programs for young families etc. Maybe it could be helpful to consider some so needed reforms (For example in USA parental leave is extremely short, approximately 3 months. In my country it is 3 years!) 
-Anyway, it was a fun research with great result which could be beginning poin for a bunch of new studies)
+<p>Despite the fact that we were working with logarithm, we can generalize our conclusions to means themselves. So ANOVA test states that my initial guess was right and that the difference between average ages when people have their first child correlate with their level of education. Furthermore, this association is strong between all education level groups.
+Unfortunately, I do not see the way to perform an experiment to find out if there is a causal relationship. Anyhow, I got an interesting result which could be used to provide better social programs for young families. Maybe it could be helpful to consider some of the so needed reforms (For example in the USA parental leave is extremely short, approximately 3 months.)
+Anyway, this was a fun research with great results which could be a starting point for a bunch of new studies)
 Thank you for your time!</p>
 
 <h3>References:</h3>
